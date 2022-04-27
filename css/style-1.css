@@ -9,12 +9,19 @@ body {
 }
 
 .contact-info {
-    margin: 20px 10px;
+    padding: 20px 0;
 }
 
-.flex-between {
+.row {
     display: flex;
     justify-content: space-between;
+    column-gap: 28px;
+    row-gap: 28px;
+}
+
+.column {
+    min-width: 219px;
+    box-sizing: border-box;
 }
 
 .aic {
@@ -93,12 +100,15 @@ body {
     background: url(../img/background.jpg) center/cover; 
 }
 
-.position p {
-    margin: 0;
+.prop {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
 }
 
 .prop-title {
-    padding: 50px 450px 20px;
     font-size: 30px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -108,14 +118,12 @@ body {
 }
 
 .prop-text {
-    padding: 0 380px;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
 }
 
 .prop-cost {
-    padding: 20px 530px 50px;
     font-size: 40px;
     line-height: 24px;
     color: #fd8300;
@@ -124,19 +132,15 @@ body {
 
 .main {
     display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
-    padding: 0 0;
     max-width: 960px;
-    max-height: 400px;
-    
+    max-height: max-content;
 }
 
 .content {
     margin: 0px;
     box-sizing: border-box;
     max-width: 713px;
-    height: 400px;
+    max-height: max-content;
     background-color: #e4e4ec;
     font-family: "Arial";
 }
@@ -171,12 +175,17 @@ body {
     font-family: "Roboto Slab";
 }
 
+.back {
+    display: flex;
+    max-width: 247px;
+}
+
 .back p {
     display: flex;
     padding: 15px 15px;
     background-color: #1f1f56;
     color: #ffffff;
-    border: 2px solid #fff;
+    
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
@@ -187,7 +196,7 @@ body {
     display: flex;
     padding: 15px 15px;
     list-style: none;
-    border: 2px solid #fff;
+    
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
@@ -205,16 +214,17 @@ body {
 
 .home {
     display: flex;
-    justify-content: space-between;
+    
     box-sizing: border-box;
-    max-width: 713px;
+    
     max-height: 280;
     align-items: center;
-    margin: 0 200px;
-    padding: 0px 0;
+    margin: 0;
+    padding: 0;
 }
 
 .home-1 {
+    margin-right: 28px;
     width: 219px;
     height: 280px;
     font-size: 13px;
@@ -231,6 +241,7 @@ body {
 }
 
 .home-2 {
+    margin-right: 28px;
     width: 219px;
     height: 280px;
     font-size: 13px;
@@ -247,6 +258,7 @@ body {
 }
 
 .home-3 {
+    margin-right: 28px;
     width: 219px;
     height: 280px;
     font-size: 13px;
@@ -264,7 +276,7 @@ body {
 
 .copy {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #e4e4ec;
 }
 
@@ -276,6 +288,6 @@ body {
     line-height: 18px;
     color: #9999a6;
     font-family: "Arial";
-    padding: 0 500px 0;
+    padding: 0;
 }
 
