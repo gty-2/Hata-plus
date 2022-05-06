@@ -60,6 +60,10 @@ a {
     align-items: center;
 }
 
+.header-shadow {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
 .header {
     padding: 15.5px 0;
     background-color: #1f1f56;
@@ -248,11 +252,11 @@ p.prop-cost {
    padding: 35px 0 45px; 
 }
 
-.main-info {
-    margin: 0;
-    box-sizing: border-box;
+.main-widh-aside {
+    /*margin: 0;
+    box-sizing: border-box;*/
     max-width: 713px;
-    max-height: max-content;
+    /*max-height: max-content;*/
 }
 
 .main-info h1,
