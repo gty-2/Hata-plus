@@ -1,0 +1,39 @@
+
+.h1 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.hd {
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.txt {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.tel  {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.mailto {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
+}
